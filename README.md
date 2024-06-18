@@ -1,7 +1,7 @@
 
 # Himtalks
 
-Himtalks merupakan singkatan dari Himtika Talks yang D imana menjadi koneksi dan tempat berkomunikasi antara pengurus Himtika dengan anggota maupun mahasiswa lainnya. Himtalks menyediakan sarana untuk memberikan kritik dan saran yang membangun serta menyampaikan pesan anonym dan berkomunikasi dengan cara mengirim pesan via DM Instagram atau via bot WA yang nantinya akan di posting di intagram “himtalks_”
+Himtalks merupakan singkatan dari Himtika Talks yang Dimana menjadi koneksi dan tempat berkomunikasi antara pengurus Himtika dengan anggota maupun mahasiswa lainnya. Himtalks menyediakan sarana untuk memberikan kritik dan saran yang membangun serta menyampaikan pesan anonym dan berkomunikasi dengan cara mengirim pesan via DM Instagram atau via website Himtalks yang nantinya akan di posting di intagram “himtalks_”
 
 
 ## Technology Use
