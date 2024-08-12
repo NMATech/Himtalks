@@ -36,7 +36,7 @@ include_once ('../connect/connect.php');
 <body class="bg-[#687EFF] font-[Poppins]">
     <div class="flex flex-col w-full h-[100vh] p-3">
         <div class="mt-[30px]">
-            <div class="absolute w-max flex justify-center items-center gap-[10px] mt-[-40px]">
+            <div class="hidden md:flex absolute w-max justify-center items-center gap-[10px] mt-[-40px]">
                 <img src="../assets/3.png" alt="" class="w-[130px]">
                 <h1 class="text-white text-center text-xl">Pesan Anonym</h1>
             </div>
@@ -48,10 +48,14 @@ include_once ('../connect/connect.php');
                 <li><a href="about.php" class="text-white text-3xl hover:font-bold">About</a></li>
             </ul>
         </div>
-        <div class="flex items-center gap-[30px] w-full mt-[5em]">
-            <div class="w-[50%] ml-[50px] p-2">
+        <div class="flex items-center gap-[30px] w-full mt-[3em] md:mt-[5em]">
+            <div class="w-full md:w-[50%] ml-[5px] md:ml-[50px] p-2">
+                <div class="md:hidden w-max flex justify-center items-center gap-[10px] mt-[-40px]">
+                    <img src="../assets/3.png" alt="" class="w-[130px]">
+                    <h1 class="text-white text-center text-xl">Pesan Anonym</h1>
+                </div>
                 <form action="../function/pesan_process.php" method="post" id="messageForm">
-                    <div class="flex gap-[230px]">
+                    <div class="flex flex-col md:flex-row gap-[5px] md:gap-[160px]">
                         <div class="flex flex-col">
                             <label for="from" class="text-white">Dari</label>
                             <input type="text" name="from" id="from" class="p-2 rounded-full">

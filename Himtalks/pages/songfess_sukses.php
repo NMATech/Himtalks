@@ -30,13 +30,13 @@
                 <li><a href="about.php" class="text-white text-3xl hover:font-bold">About</a></li>
             </ul>
         </div>
-        <div class="flex items-center ml-[50px] mt-[6em]">
-            <div>
-                <img src="../assets/2.png" alt="">
+        <div class="flex flex-col md:flex-row items-center ml-[5px] md:ml-[50px] mt-[3em]">
+            <div class="hidden md:block">
+                <img src="../assets/1.png" alt="">
             </div>
-            <div class="w-[40%]">
-                <h1 class="text-[#B6FFFA] text-5xl">Pesan Anonym</h1>
-                <p class="text-white text-justify text-2xl mt-[5px]">pesan anda telah tersimpan.</p>
+            <div class="w-full md:w-[40%]">
+                <h1 class="text-[#B6FFFA] text-3xl md:text-5xl">Songfess</h1>
+                <p class="text-white text-justify text-2xl mt-[5px]">songfess anda telah tersimpan.</p>
                 <div class="w-full flex items-center mt-[20px]">
                     <a href="home.php" class="">
                         <div class="bg-[#B6FFFA] rounded-full px-8 py-2">

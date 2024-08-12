@@ -21,9 +21,9 @@
 
 <body class="bg-[#687EFF]">
     <div class="flex">
-        <div class="w-[40%] h-[100vh]">
+        <div class="w-[50%] md:w-[40%] h-[100vh]">
             <div>
-                <img src="./assets/image 2.png" alt="" class="h-[100vh]">
+                <img src="./assets/image 2.png" alt="" class="h-[100vh] object-cover">
             </div>
         </div>
         <div class="flex flex-col w-[60%] h-[100vh] p-3">
@@ -34,10 +34,10 @@
                 </ul>
             </div>
             <div class="w-full mt-[10em]">
-                <h1 class="text-white text-7xl font-[Righteous] text-center">HIMTALKS</h1>
+                <h1 class="text-white text-4xl md:text-7xl font-[Righteous] text-center">HIMTALKS</h1>
                 <div class="w-full flex justify-center items-center mt-[20px]">
                     <a href="./pages/home.php" class="">
-                        <div class="bg-white rounded-full px-12 py-4">
+                        <div class="bg-white rounded-full px-8 py-2 md:px-12 md:py-4">
                             <h1 class="text-[#687EFF] text-xl hover:bg-[#dfdfdf]">Masuk</h1>
                         </div>
                     </a>

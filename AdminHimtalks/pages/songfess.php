@@ -113,6 +113,9 @@ if (isset($_POST['logout'])) {
                             No</th>
                         <th
                             class="px-6 py-3 border-b-2 border-gray-200 text-left leading-4 text-gray-600 tracking-wider">
+                            Waktu diKirim</th>
+                        <th
+                            class="px-6 py-3 border-b-2 border-gray-200 text-left leading-4 text-gray-600 tracking-wider">
                             Pengirim</th>
                         <th
                             class="px-6 py-3 border-b-2 border-gray-200 text-left leading-4 text-gray-600 tracking-wider">
@@ -132,6 +135,18 @@ if (isset($_POST['logout'])) {
                     <?php foreach ($songfess as $x): ?>
                         <tr>
                             <td class="px-6 py-4 border-b border-gray-200"><?php echo $x['id'] ?></td>
+                            <td class="px-6 py-4 border-b border-gray-200">
+                                <?php
+                                // Buat objek DateTime dari created_at
+                                $date = new DateTime($x['created_at']);
+
+                                // Format tanggal dengan IntlDateFormatter
+                                $formatter = new IntlDateFormatter('id_ID', IntlDateFormatter::FULL, IntlDateFormatter::SHORT);
+                                $formatter->setPattern('EEEE, dd MMMM yyyy HH:mm');
+
+                                echo $formatter->format($date);
+                                ?>
+                            </td>
                             <td class="px-6 py-4 border-b border-gray-200"><?php echo $x['pengirim'] ?></td>
                             <td class="px-6 py-4 border-b border-gray-200"><?php echo $x['ig_penerima'] ?></td>
                             <td class="px-6 py-4 border-b border-gray-200"><?php echo $x['judul_lagu'] ?></td>

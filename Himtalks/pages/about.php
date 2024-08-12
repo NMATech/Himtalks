@@ -31,14 +31,12 @@
             </ul>
         </div>
         <div class="w-full mt-[3em]">
-            <div class="ml-[50px]">
-                <h1 class="text-white text-[44px] font-bold">Apa itu <br> Himtalks ?</h1>
+            <div class="ml-[35px] md:ml-[50px]">
+                <h1 class="text-white text-[38px] md:text-[44px] font-bold">Apa itu <br> Himtalks ?</h1>
             </div>
-            <div class="w-[80%] ml-[50px] mt-[20px]">
-                <p class="text-[25px] text-justify text-white">Himtalks merupakan singkatan dari Himtika Talks yang D
-                    imana menjadi
-                    koneksi dan
-                    tempat berkomunikasi
+            <div class="w-[80%] ml-[35px] md:ml-[50px] mt-[20px] mb-[20px]">
+                <p class="text-[20px] md:text-[25px] text-justify text-white">Himtalks merupakan singkatan dari Himtika
+                    Talks yang Dimana menjadi koneksi dan tempat berkomunikasi
                     antara pengurus Himtika dengan anggota maupun mahasiswa lainnya. Himtalks menyediakan sarana untuk
                     memberikan kritik dan saran yang membangun serta menyampaikan pesan anonym dan berkomunikasi dengan
                     cara mengirim pesan via DM Instagram atau via bot WA yang nantinya akan di posting di
