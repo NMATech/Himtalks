@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include_once ('./connect/connect.php');
+include_once('./connect/connect.php');
 
 if (!isset($_SESSION['admin'])) {
     header('Location: ./pages/login.php');
@@ -184,6 +184,11 @@ if (isset($_POST['logout'])) {
                 </tbody>
 
             </table>
+            <a href="./pages/menfess_print.php">
+                <div class="bg-rose-500 w-max text-white rounded-xl shadow-xl px-6 py-2">
+                    <h1>Export data</h1>
+                </div>
+            </a>
         </div>
 
         <!-- Data pesan kritik saran -->
@@ -247,8 +252,12 @@ if (isset($_POST['logout'])) {
                         </tr>
                     <?php endforeach; ?>
                 </tbody>
-
             </table>
+            <a href="./pages/kritik_saran_print.php">
+                <div class="bg-rose-500 w-max text-white rounded-xl shadow-xl px-6 py-2">
+                    <h1>Export data</h1>
+                </div>
+            </a>
         </div>
     </div>
 </body>

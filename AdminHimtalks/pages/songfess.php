@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-include_once ('../connect/connect.php');
+include_once('../connect/connect.php');
 
 if (!isset($_SESSION['admin'])) {
     header('Location: ./pages/login.php');
@@ -166,6 +166,11 @@ if (isset($_POST['logout'])) {
                     <?php endforeach; ?>
                 </tbody>
             </table>
+            <a href="songfess_print.php">
+                <div class="bg-rose-500 w-max text-white rounded-xl shadow-xl px-6 py-2">
+                    <h1>Export data</h1>
+                </div>
+            </a>
         </div>
     </div>
 </body>
